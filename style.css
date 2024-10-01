@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 64px;
+    text-align: center;
+    background-color: rgba(235, 242, 245, 0.648);
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    width: 100vw;
+}
+p{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 25px;
+   text-align: center;
+   line-height: 50px;
+}
+.top-container{
+    margin-top: 70px;
+    position: relative;
+    background-image: url("/brand/oak-bond-coffee-co-l50MvnRJfDg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    opacity: 0.8;
+    color: white;
+
+}
+.top-container p{
+   position: relative;
+   z-index: 10;
+}
+.bottom-container{
+    position: relative;
+    background-image: url("/brand/frank-holleman-Eh1mq33PQDo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    opacity: 0.8;
+    color: white;
+    border-radius: 0 0 25px 25px;
+}
+.bottom-container p{
+    position: relative;
+    z-index: 10;
+}
+.fixed-mama{
+    position: fixed;
+    top: 90px;
+    left: 1150px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-image: url("/brand/madeline-liu-7_Fh6nQYOLI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    opacity: 0.8;
+
+}
+
+
+
+
+
+h2{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px 0 50px 20px;
+}
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.place{
+    border-radius: 7px 7px 0 0;
+}
+.content{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    height: 270px;
+    border: 2px solid #fff;
+    background-color: #FAF9F6;
+    border-radius: 7px;
+}
+.content img{
+    transition: transform 0.3s ease;
+
+}
+.content img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.partners{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+
+.junk{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.partners-content img{
+    transition: transform 0.3s ease;
+}
+.partners-content img:hover{
+    transform: scale(0.7);
+    cursor: pointer;
+}
+
+.footer{
+    position: sticky;
+    bottom: 0;
+    background-color: aliceblue;
+    color: black;
+    background-color: whitesmoke;
+    
+}
